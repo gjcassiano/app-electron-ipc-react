@@ -1,0 +1,14 @@
+appId: com.giovanic
+productName: app-electron-ipc-react
+copyright: Copyright © 2022
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+win:
+  publish:
+    - github

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+body {
+	background-color: white;
+	color: black;
+	font-family: 'Advent Pro', sans-serif;
+	font-size: large;
+	margin: 0;
+	overflow: hidden;
+}
+
+#app {
+	position: relative;
+	height: 398px;
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 1px;
+}
+
+.title {
+	width: '100%';
+	text-align: 'start';
+	display: 'block';
+	background-color: whitesmoke;
+	height: 25px;
+	padding: 3px 6px;
+	font-weight: bold;
+	user-select: none;
+	-webkit-app-region: drag;
+	border-bottom: 1px solid;
+}
+
+.title .btn-close {
+	right: 0px;
+	position: fixed;
+	padding: 0px;
+
+	-webkit-app-region: none;
+}
+
+.title .btn-minimaze {
+	right: 30px;
+	position: fixed;
+	padding: 0px;
+	-webkit-app-region: none;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	margin-left: 2px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-corner {
+	opacity: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
