@@ -1,1 +1,8 @@
-![Alt text](/imgs/p1.jpg?raw=true 'Title')
+# Simple example:
+
+![Alt text](https://github.com/gjcassiano/app-electron-ipc-react/blob/main/imgs/p1.JPG?raw=true 'Title')
+
+```
+yarn install
+yarn start
+```
