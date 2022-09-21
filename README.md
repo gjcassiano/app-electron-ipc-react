@@ -6,3 +6,8 @@
 yarn install
 yarn start
 ```
+
+#electron
+#ipc
+#react
+#app-electron
